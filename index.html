@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+            <title>Título da História</title>
+        </head>
+    <body>
+        <main>
+            <div class="passo ativo" id="passo-1">
+                <p>Alex, um espião altamente treinado, é convocado por sua agência para uma missão de alto risco. Durante a missão, ele descobre uma traição interna envolvendo uma organização secreta.</p>
+                <button class="btn-proximo" data-proximo="2A">Confrontar diretamente o traidor</button>
+                <button class="btn-proximo" data-proximo="2B">Seguir o traidor discretamente</button>
+            </div>
+            
+            <div class="passo" id="passo-2A">
+                <p>Alex enfrenta o traidor e, após uma luta intensa, consegue capturá-lo. Ele descobre que o traidor faz parte de uma organização secreta global.</p>
+                <button class="btn-proximo" data-proximo="3A">Interrogar o traidor</button>
+                <button class="btn-proximo" data-proximo="3B">Entregar o traidor para a agência</button>
+            </div>
+            
+            <div class="passo" id="passo-2B">
+                <p>Alex opta por seguir o traidor e descobre que ele faz parte de uma rede maior de espiões infiltrados na agência.</p>
+                <button class="btn-proximo" data-proximo="3C">Continuar espionando o traidor</button>
+                <button class="btn-proximo" data-proximo="3D">Alertar a agência sobre a rede</button>
+            </div>
+            
+            <div class="passo" id="passo-3A">
+                <p>Durante o interrogatório, Alex descobre o plano da organização secreta de infiltrar a agência.</p>
+                <button class="btn-proximo" data-proximo="4A">Se infiltrar na organização secreta</button>
+                <button class="btn-proximo" data-proximo="4B">Alertar a agência sobre o plano</button>
+            </div>
+            
+            <div class="passo" id="passo-3B">
+                <p>A organização secreta reage à captura de seu agente, e uma nova ameaça surge, colocando a missão de Alex em risco.</p>
+                <button class="btn-proximo" data-proximo="4C">Tomar medidas preventivas contra a organização</button>
+                <button class="btn-proximo" data-proximo="4D">Confiar na proteção da agência</button>
+            </div>
+            
+            <div class="passo" id="passo-3C">
+                <p>Alex continua espionando o traidor, mas ele percebe e foge, levando Alex a uma perseguição arriscada.</p>
+                <button class="btn-proximo" data-proximo="4E">Continuar a perseguição</button>
+                <button class="btn-proximo" data-proximo="4F">Recuar e reavaliar a situação</button>
+            </div>
+            
+            <div class="passo" id="passo-3D">
+                <p>A agência é avisada e lança uma operação interna para identificar mais espiões, mas o traidor escapa, alertando a organização secreta.</p>
+                <button class="btn-proximo" data-proximo="4G">Lançar uma operação contra a organização secreta</button>
+                <button class="btn-proximo" data-proximo="4H">Manter a operação em segredo</button>
+            </div>
+            
+            <div class="passo" id="passo-4A">
+                <p>Alex, disfarçado, consegue entrar na organização secreta e descobre novos detalhes sobre suas operações. Ele precisa decidir seu próximo passo.</p>
+                <button class="btn-proximo" data-proximo="conclusaoA">Sabotar a operação internamente</button>
+                <button class="btn-proximo" data-proximo="conclusaoB">Recolher mais informações antes de agir</button>
+            </div>
+            
+            <div class="passo" id="passo-4B">
+                <p>Alex alerta a agência, mas isso faz com que a organização secreta o descubra e tente eliminá-lo.</p>
+                <button class="btn-proximo" data-proximo="conclusaoC">Confiar na proteção da agência</button>
+                <button class="btn-proximo" data-proximo="conclusaoD">Fugir por conta própria</button>
+            </div>
+            
+            <div class="passo" id="passo-4C">
+                <p>Alex decide tomar medidas preventivas e se isolar para se proteger, mas isso o afasta da missão principal.</p>
+                <button class="btn-proximo" data-proximo="conclusaoE">Voltar à missão</button>
+                <button class="btn-proximo" data-proximo="conclusaoF">Ficar em segurança</button>
+            </div>
+            
+            <div class="passo" id="passo-4D">
+                <p>Alex fica sob a proteção da agência, mas a organização secreta intensifica seus ataques, colocando sua segurança em risco.</p>
+                <button class="btn-proximo" data-proximo="conclusaoC">Continuar protegido pela agência</button>
+                <button class="btn-proximo" data-proximo="conclusaoD">Fugir por conta própria</button>
+            </div>
+            
+            <div class="passo" id="passo-4E">
+                <p>Alex captura o traidor após uma perseguição arriscada, mas novos segredos são revelados sobre a organização.</p>
+                <button class="btn-proximo" data-proximo="conclusaoA">Seguir com a missão</button>
+                <button class="btn-proximo" data-proximo="conclusaoB">Informar a agência</button>
+            </div>
+            
+            <div class="passo" id="passo-4F">
+                <p>Alex recua para reavaliar a situação, mas a organização secreta ganha vantagem e avança em seus planos.</p>
+                <button class="btn-proximo" data-proximo="conclusaoE">Contra-atacar</button>
+                <button class="btn-proximo" data-proximo="conclusaoF">Proteger-se e planejar a próxima ação</button>
+            </div>
+            
+            <div class="passo" id="passo-4G">
+                <p>A agência lança uma ofensiva contra a organização secreta, mas eles reagem de forma brutal, desencadeando novos conflitos.</p>
+                <button class="btn-proximo" data-proximo="conclusaoA">Alex ajuda na operação</button>
+                <button class="btn-proximo" data-proximo="conclusaoB">Retirar-se temporariamente</button>
+            </div>
+            
+            <div class="passo" id="passo-4H">
+                <p>A operação continua em segredo, mas Alex é exposto e colocado em risco pela organização secreta.</p>
+                <button class="btn-proximo" data-proximo="conclusaoD">Fugir e se proteger</button>
+                <button class="btn-proximo" data-proximo="conclusaoC">Buscar proteção da agência</button>
+            </div>
+            
+            <!-- Conclusões -->
+            
+            <div class="passo" id="conclusaoA">
+                <p>Alex consegue sabotar a operação da organização secreta internamente e, com sucesso, retorna à agência, pronto para novas missões.</p>
+            </div>
+            
+            <div class="passo" id="conclusaoB">
+                <p>Com todas as informações coletadas, Alex organiza uma emboscada e desmantela a organização secreta. Ele retorna como herói.</p>
+            </div>
+            
+            <div class="passo" id="conclusaoC">
+                <p>A organização secreta encontra Alex, que é forçado a fugir, mas eventualmente consegue neutralizar a ameaça com ajuda externa.</p>
+            </div>
+            
+            <div class="passo" id="conclusaoD">
+                <p>Mesmo sozinho, Alex desmantela a organização secreta, mas sofre grandes perdas no processo. Ele retorna à agência com uma nova visão.</p>
+            </div>
+            
+            <div class="passo" id="conclusaoE">
+                <p>Alex confronta a organização secretamente e consegue derrubar a operação, mas é gravemente ferido no processo. Ele sobrevive e volta para continuar a luta.</p>
+            </div>
+            
+            <div class="passo" id="conclusaoF">
+                <p>Com Alex em segurança, a organização secreta consegue avançar, mas a agência se prepara para o próximo confronto. Alex decide voltar à ação.</p>
+            </div>
+            
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
